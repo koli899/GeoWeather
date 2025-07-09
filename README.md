@@ -1,5 +1,7 @@
 # Weather App
 
+[Live Demo on Netlify](https://weather-predictor-app1.netlify.app/)
+
 A modern, responsive weather web application that displays current weather and 5-day forecasts for major Indian cities and searched locations. The app features a beautiful UI, dynamic background changes based on weather conditions, and network information display.
 
 ## Features
