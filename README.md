@@ -21,7 +21,7 @@ A modern, responsive weather web application that displays current weather and 5
 - OpenWeatherMap API
 - BigDataCloud Reverse Geocoding API (for location detection)
 - Network Information API (used to detect user's network speed and quality dynamically)
-- **HTML5 Canvas API** (used to render the 5-day temperature trend graph visually in the forecast/details page)
+- used to render the 5-day temperature trend graph visually in the forecast/details page
 
 
 ## Installation
