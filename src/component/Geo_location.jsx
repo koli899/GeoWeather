@@ -15,7 +15,7 @@ const Geolocation = () => {
       setLongitude(position.coords.longitude);
 
       const API_endpoint = "https://api.openweathermap.org/data/2.5/weather";
-      const finalAPIEndPoint = `${API_endpoint}?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=c3dcc7f14c661c43f21ecc37e95d683f`;
+      const finalAPIEndPoint = `${API_endpoint}?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${import.meta.env.VITE_OPENWEATHER_API_KEY}`;
 
       axios.get(finalAPIEndPoint)
         .then((response) => {
